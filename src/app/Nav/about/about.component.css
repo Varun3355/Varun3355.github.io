@@ -1,0 +1,22 @@
+/*# sourceMappingURL=about.component.css.map */
+
+
+.btn {
+  justify-content: start;
+  color:aqua;
+}
+.card {
+  position: absolute;
+  width: 25rem;
+  padding: 10px;
+  top: 680px;
+  background-color: aqua;
+  color: black;
+  left: 30px;
+
+}
+
+.card-img-top {
+  height: auto;
+  width: auto;
+}
