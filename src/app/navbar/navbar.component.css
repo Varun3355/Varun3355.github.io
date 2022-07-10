@@ -1,1 +1,4 @@
-/*# sourceMappingURL=navbar.component.css.map */
+.nav-item {
+  text-align: end;
+  flex: auto;
+}/*# sourceMappingURL=navbar.component.css.map */
