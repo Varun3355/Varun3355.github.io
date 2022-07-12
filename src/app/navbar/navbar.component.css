@@ -1,4 +1,3 @@
-.nav-item {
-  text-align: end;
-  flex: auto;
+.collapse navbar-collapse {
+  word-spacing: 10px;
 }/*# sourceMappingURL=navbar.component.css.map */

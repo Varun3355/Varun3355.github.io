@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UsersDataService } from './services/users-data.service'
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Profile-App';
   data="";
-  showData(item:any) {
-    this.data="any";
+  about:any;
+  constructor(private userData:UsersDataService) {
+    userData.about().subscribe((data)=>this.about=data)
   }
 }

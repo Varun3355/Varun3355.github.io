@@ -8,6 +8,8 @@ import { EduComponent } from './Nav/edu/edu.component';
 import { SkillComponent } from './Nav/skill/skill.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './Nav/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -18,10 +20,12 @@ import { NavbarComponent } from './navbar/navbar.component';
     SkillComponent,
     BannerComponent,
     NavbarComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
